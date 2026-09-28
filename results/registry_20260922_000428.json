@@ -1,0 +1,34 @@
+[
+  {
+    "key": "conversation.wav::SpecialOfferFinding",
+    "value": {
+      "cls": "SpecialOfferFinding",
+      "present": true,
+      "who": "Ольга (компания Строймир)",
+      "details": "Скидка 30% на весь ассортимент."
+    }
+  },
+  {
+    "key": "conversation.wav::DissatisfactionFinding",
+    "value": {
+      "cls": "DissatisfactionFinding",
+      "present": true,
+      "reason": "Собеседник недоволен навязчивыми звонками и рекламой, так как ранее уже просил не набирать этот номер.",
+      "examples": []
+    }
+  },
+  {
+    "key": "conversation.wav::RudenessFinding",
+    "value": {
+      "cls": "RudenessFinding",
+      "present": true,
+      "who": "Собеседник (клиент)",
+      "examples": [
+        "Да сколько можно звонить?",
+        "Мне не интересно, ясно?",
+        "Нет времени слушать рекламу каждый день, отстаньте уже.",
+        "Ага, конечно."
+      ]
+    }
+  }
+]

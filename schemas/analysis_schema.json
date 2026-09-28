@@ -1,0 +1,36 @@
+{
+  "name": "conversation_analysis",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "rudeness": {
+        "type": "object",
+        "properties": {
+          "present": {"type": "boolean"},
+          "who": {"type": "string"},
+          "examples": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["present"]
+      },
+      "special_offer": {
+        "type": "object",
+        "properties": {
+          "present": {"type": "boolean"},
+          "who": {"type": "string"},
+          "details": {"type": "string"}
+        },
+        "required": ["present"]
+      },
+      "dissatisfaction": {
+        "type": "object",
+        "properties": {
+          "present": {"type": "boolean"},
+          "reason": {"type": "string"},
+          "examples": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["present"]
+      }
+    },
+    "required": ["rudeness", "special_offer", "dissatisfaction"]
+  }
+}
