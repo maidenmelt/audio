@@ -1,0 +1,29 @@
+[
+  {
+    "key": "conversation.wav::DissatisfactionFinding",
+    "value": {
+      "cls": "DissatisfactionFinding",
+      "present": true,
+      "reason": "Первый участник выражает недовольство своим физическим состоянием: жалобятся на воспаление десны, боль при еде (не может есть горячее и кислое), а также на дискомфорт от зуба мудрости.",
+      "examples": []
+    }
+  },
+  {
+    "key": "conversation.wav::RudenessFinding",
+    "value": {
+      "cls": "RudenessFinding",
+      "present": false,
+      "who": "none",
+      "examples": []
+    }
+  },
+  {
+    "key": "conversation.wav::SpecialOfferFinding",
+    "value": {
+      "cls": "SpecialOfferFinding",
+      "present": true,
+      "who": "Второй участник (вероятно, специалист)",
+      "details": "Предложил рассмотреть покупку мануальной щетки вместо обычной, так как обычная может быть неудобной."
+    }
+  }
+]
